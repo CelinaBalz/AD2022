@@ -1,0 +1,44 @@
+@import url(__reset.css);
+
+:root{
+    --cinza-claro: #EFEFEF;
+    --cinza-escuro: #000000;
+    --preto: #000000;
+
+    --inter:  'Inter', sans-serif;
+    
+    --peso-texto: 400;
+    --peso-subtitulo: 300;
+    --semibold: 600;
+    --peso-titulo: 700;
+
+    --tamanho-titulo: 18.62px;
+    --tamanho-subtitulo: 15.96px;
+    --tamanho-texto: 15.96px;
+}
+
+body{
+    font-family: var(--inter);
+    color: var(--azul-escuro);
+    font-size: var(--tamanho-texto);
+    word-spacing: 1,5pt;
+}
+
+.titulo{
+    font-weight: var(--peso-titulo);
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo__secundario{
+    font-weight: var(--peso-titulo);
+}
+
+.subtitulo{
+    font-weight: var(--peso-subtitulo);
+    font-size: var(--tamanho-subtitulo);
+}
+
+.texto{
+    color: var(--cinza-escuro);
+    font-size: 13.30px;
+}
